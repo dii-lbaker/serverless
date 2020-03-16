@@ -27,6 +27,7 @@ Serverless Framework, when configured to connect to the Serverless Framework Pro
 * HTTP Spans
 
 __Lambda Log Collection__
+
 Serverless Framework Pro will enable log collection by adding a CloudWatch Logs Subscription to send logs that match a particular pattern to our infrastructure for processing. This is used for generating metrics and alerts.
 
 When deploying, Serverless Framework will also create an IAM role in your account that allows the Serverless Framework backend to call FilterLogEvents on the CloudWatch Log Groups that are created in the Service being deployed. This is used to display the CloudWatch logs error details views alongside the stack trace.
@@ -42,6 +43,7 @@ custom:
 ```
 
 __AWS Spans__
+
 Serverless Framework Pro will instrument the use of the AWS SDK to show use of AWS services by your Lambda function.  This information provides
 a valuable visualization of what is happening inside your lambda function, including how long calls to services like DynamoDB, S3 and others are taking.
 
@@ -56,6 +58,7 @@ custom:
 ```
 
 __HTTP(s) Spans__
+
 Serverless Framework Pro will instrument the use of HTTP(s) by your Lambda function.  Much like the AWS Spans, HTTP(s) spans will provide a
 visualization of the external communication that your function is invoking, including the duration of those sessions.
 
