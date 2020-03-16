@@ -66,7 +66,7 @@ The Serverless Framework supports all of the AWS Lambda events and more. Instead
 
 ## PathParameters
 
-HTTP events can be configured to pass in path parameters to your lambda function.  [See the API Gateway event for more details.](../events/apigateway.md)
+HTTP events can be configured to pass in path parameters to your lambda function.  [See the API Gateway event for more details.](../events/apigateway.md#request-parameters)
 
 ```yml
 # 'functions' in serverless.yml
